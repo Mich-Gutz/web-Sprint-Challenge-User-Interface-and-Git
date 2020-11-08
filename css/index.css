@@ -197,3 +197,23 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.image-container2 {
+background-image:url("../img/jumbo-about.png");
+background-repeat: no-repeat;
+/* margin-left:50%;
+margin-right:50%; */
+width:auto;
+padding:80px;
+margin-left:18%;
+margin-bottom:10px;
+}
+
+.container .about-page .section {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+
+
+}
