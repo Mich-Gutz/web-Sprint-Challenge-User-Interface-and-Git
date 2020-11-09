@@ -209,11 +209,40 @@ margin-left:18%;
 margin-bottom:10px;
 }
 
-.container .about-page .section {
+/* .middle-content2 .container-about-page .div: {
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
+}
+
+.body .middle-content2 {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.body .middle-content2 h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+.middle-content2 .section{
+    padding:30%;
+}
+.button{
+    padding:5px;
+    background-color: white;
+    border-radius: 8px;
+} */
 
 
 
+.middle-content2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-about-page{
+    padding:50px;
+    width:50%;
 }
