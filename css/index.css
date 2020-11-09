@@ -120,11 +120,13 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: auto;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+
 }
 
 .middle-content .boxes {
@@ -201,48 +203,23 @@ footer nav a {
 .image-container2 {
 background-image:url("../img/jumbo-about.png");
 background-repeat: no-repeat;
-/* margin-left:50%;
-margin-right:50%; */
+
 width:auto;
 padding:80px;
 margin-left:18%;
 margin-bottom:10px;
 }
 
-/* .middle-content2 .container-about-page .div: {
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-
-.body .middle-content2 {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-
-.body .middle-content2 h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-.middle-content2 .section{
-    padding:30%;
-}
-.button{
-    padding:5px;
-    background-color: white;
-    border-radius: 8px;
-} */
 
 
-
-.middle-content2{
+.flex-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
-.container-about-page{
-    padding:50px;
-    width:50%;
-}
+
+.flex-container div{
+    width:370px;
+    margin-bottom:5px
+    }
