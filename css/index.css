@@ -203,7 +203,6 @@ footer nav a {
 .image-container2 {
 background-image:url("../img/jumbo-about.png");
 background-repeat: no-repeat;
-
 width:auto;
 padding:80px;
 margin-left:18%;
@@ -222,4 +221,16 @@ margin-bottom:10px;
 .flex-container div{
     width:370px;
     margin-bottom:5px
+    }
+
+  .flex-container div a{
+  border: 2px solid black;
+  padding: 10px;
+  width:130px;
+  color:black;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 20px 0px 20px;
+  text-align:center;
     }
