@@ -62,8 +62,40 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
+}
+
+.nav ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin:50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    /* width:2px; */
+    display:block;
+    /* padding:5px; */
+    align-items: center;
+  
+}
+.nav li{
+    display:inline-block;
+}
+
+.image-container {
+    background-image:url("../img/jumbo.jpg");
+    background-repeat: no-repeat;
+    /* margin-left:50%;
+    margin-right:50%; */
+    width:auto;
+    padding:80px;
+    margin-left:18%;
+    margin-bottom:10px;
 }
 
 .container {
@@ -88,11 +120,13 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: auto;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+
 }
 
 .middle-content .boxes {
@@ -101,10 +135,31 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .boxes .box:nth-child(1){
+    background-color:teal;}
+.middle-content .boxes .box:nth-child(2){
+        background-color:gold;}
+.middle-content .boxes .box:nth-child(3){
+            background-color:cadetblue;}
+.middle-content .boxes .box:nth-child(4){
+             background-color:coral;}
+.middle-content .boxes .box:nth-child(5){
+                    background-color:crimson;}
+.middle-content .boxes .box:nth-child(6){
+                        background-color:forestgreen;}
+.middle-content .boxes .box:nth-child(7){
+                            background-color:darkorchid;}
+.middle-content .boxes .box:nth-child(8){
+                                background-color:hotpink;}
+.middle-content .boxes .box:nth-child(9){
+                                    background-color:indigo;}
+.middle-content .boxes .box:nth-child(10){
+                                        background-color:dodgerblue;}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +199,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.image-container2 {
+background-image:url("../img/jumbo-about.png");
+background-repeat: no-repeat;
+width:auto;
+padding:80px;
+margin-left:18%;
+margin-bottom:10px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.flex-container div{
+    width:370px;
+    margin-bottom:5px
+    }
+
+  .flex-container div a{
+  border: 2px solid black;
+  padding: 10px;
+  width:130px;
+  color:black;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 20px 0px 20px;
+  text-align:center;
+    }
